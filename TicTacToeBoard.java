@@ -60,11 +60,7 @@ public class TicTacToeBoard {
    }
    
    public boolean areTheseThreeEqual(char thingOne, char thingTwo, char thingThree) {
-      boolean equal = false;
-      if (thingOne == thingTwo && thingTwo == thingThree) {
-         equal = true;
-      }
-      return equal;
+      return thingOne == thingTwo && thingTwo == thingThree;
    }
    
    public boolean tie() {
